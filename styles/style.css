@@ -1,0 +1,44 @@
+body{
+  text-align: center;
+}
+.main, .selector, .article{
+  width: 88.2%;
+  min-height: 100px;
+  padding: 5px;
+  text-align: left;
+}
+.header, .footer {
+  background-color: grey;
+  color: white;
+  padding: 15px;
+}
+.aside{
+  width: 10%;
+  padding: 10px;
+  min-height: 315px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column{
+  float: left;
+}
+
+.aside ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.aside li {
+  padding: 8px;
+  margin-bottom: 15px;
+  background-color: #33b5e5;
+  color: #ffffff;
+}
+
+.aside li:hover {
+  background-color: #0099cc;

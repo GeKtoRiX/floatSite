@@ -1,0 +1,104 @@
+<!-- Объявление определяет, что данный документ является документом HTML5  -->
+<!DOCTYPE html>
+<!-- Элемент <html> является корневым элементом HTML-страницы.
+     Большинство браузеров отображают элемент <html> со следующими значениями по умолчанию:html [display: block;] 
+     html:focus [outline: none;]
+     Атрибут lang тега <html> определяет язык веб-страницы. -->
+<html lang="en">
+  <!-- Элемент <head> содержит метаинформацию о HTML-странице -->
+
+  <head>
+    <!-- Используема кодировка страницы -->
+    <meta charset="utf-8" />
+    <!-- Ключевые слова для движка поисковиков -->
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <!-- Краткое описание сайта -->
+    <meta
+      name="description"
+      content="Testing site of new HTML, CSS, JavaScript features"
+    />
+    <!-- Автор содержимого сайта -->
+    <meta name="author" content="CandyBob" />
+    <!-- Часть width=device-width устанавливает ширину страницы 
+         в соответствии с шириной экрана устройства, которая зависит от устройства. -->
+    <!-- Часть initial-scale=1.0 устанавливает начальный уровень масштабирования при первой загрузке страницы браузером. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Обновление страницы раз в 2 минуты -->
+    <meta http-equiv="refresh" content="3600" />
+    <!-- Определяет адрес по умолчанию или цель[taret] по умолчанию для всех ссылок на странице -->
+    <base href="" target="_blank" />
+
+    <!-- Определяет связь между документом и внешним ресурсом. Favicon 
+       Ссылка на внешний CSS -->
+    <!-- Чтобы добавить favicon на свой сайт, либо сохраните изображение favicon в корневом каталоге вашего веб-сервера, 
+       либо создайте в корневом каталоге папку images и сохраните изображение favicon в этой папке.
+       Обычное название изображения favicon - "favicon.ico". -->
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon" />
+    <!-- Внешний [External] CSS используется для определения стиля для одной HTML-страницы. -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" /> -->
+
+    <!-- Элемент <title> задает заголовок HTML-страницы [который отображается в строке заголовка браузера или на вкладке страницы]. -->
+    <title>SelfStudying</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Lorem, ipsum dolor.</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
+        repudiandae beatae nesciunt? Sed magnam, tempore nobis laboriosam quo
+        nulla minus?
+      </p>
+    </div>
+    <div class="clearfix">
+      <div class="aside column">
+        <h4>Menu</h4>
+        <ul>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem, ipsum.</li>
+        </ul>
+      </div>
+      <div class="main column">
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nostrum
+          earum recusandae laborum est amet praesentium voluptate harum delectus
+          expedita.
+        </p>
+      </div>
+      <div class="selector column">
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+          aliquid provident placeat similique iusto sequi dolores eius quis
+          incidunt dolorem.
+        </p>
+      </div>
+      <div class="article column">
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+          reiciendis provident dicta odit nostrum nam minus recusandae. Porro,
+          illo voluptatem.
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+        repellendus?
+      </p>
+    </div>
+  </body>
+</html>
